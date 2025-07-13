@@ -20,7 +20,7 @@ LOWPOOL_MODE = "parents"   # or the equivalent keyword used in the script, e.g. 
 
 # BSAtool中文说明
 
-本项目中的BSA支持两种分析策略方法一种是标准的高池和低池，对于单基因或双基因隐性性状混池，还可以使用 （SNPindex of Parent1 +NPindex of Parent2 ）/2作为低池。
+本项目中的BSA支持两种分析策略方法一种是标准的高池和低池，对于单基因或双基因隐性性状混池，还可以使用 (SNP-index\_Parent1 + SNP-index\_Parent2)/2作为低池。
 将代码中的
 
 ```python
