@@ -17,6 +17,21 @@ with
 LOWPOOL_MODE = "parents"   # or the equivalent keyword used in the script, e.g. "parents"
 ```
 
+将代码中的
+
+```python
+LOWPOOL_MODE = "bulk"
+```
+
+改为
+
+```python
+LOWPOOL_MODE = "parent_avg"   # 或脚本中定义的等价关键字，例如 "parents"
+```
+
+即可启用 **Recessive-trait mode**，让脚本把
+$(\text{SNP-index}_{\text{Parent 1}} + \text{SNP-index}_{\text{Parent 2}}) / 2$
+作为低池进行比较。
 
 
 
