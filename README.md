@@ -33,9 +33,7 @@ LOWPOOL_MODE = "bulk"
 LOWPOOL_MODE = "parents"   # 或脚本中定义的等价关键字，例如 "parents"
 ```
 
-即可启用 **Recessive-trait mode**，让脚本把
-$(\text{SNP-index}_{\text{Parent 1}} + \text{SNP-index}_{\text{Parent 2}}) / 2$
-作为低池进行比较。
+即可启用 **Recessive-trait mode**，让脚本把(SNP-index\_Parent1 + SNP-index\_Parent2)/2作为低池进行比较。
 
 
 
